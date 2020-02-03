@@ -1,5 +1,5 @@
 import React from 'react';
-//import { Link } from 'react-router-dom';
+import { Link as ReactLink } from 'react-router-dom';
 
 import Link from "../link/link";
 
@@ -15,21 +15,21 @@ const Menu = () => (
     <Link className="link" to="/b">
       ParentB
     </Link>
-       <Link className="link" to="/home/a">
+       <ReactLink className="link" to="/home/a">
       Child Home A
-    </Link>
-    <Link className="link" to="/home/b">
+    </ReactLink>
+    <ReactLink className="link" to="/home/b">
       Child Home B
-    </Link>
-    <Link className="link" to="/a/a">
+    </ReactLink>
+    <ReactLink className="link" to="/a/a">
       Child A A
-    </Link>
-    <Link className="link" to="/a/b">
+    </ReactLink>
+    <ReactLink className="link" to="/a/b">
       Child A B
-    </Link>
-    <Link className="link" to="/a/a">
+    </ReactLink>
+    <ReactLink className="link" to="/a/a">
       Child B A
-    </Link>
+    </ReactLink>
     <Link className="link" to="/a/b">
       Child B B
     </Link>
