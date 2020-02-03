@@ -13,11 +13,11 @@ const routes = [
     routes: [
       {
         path: '/home/a',
-        component: lazy(() => import('./child_a/child_a'))
+        fetchComponent: () => import('./child_a/child_a')
       },
       {
         path: '/home/b',
-        component: lazy(() => import('./child_b/child_b'))
+        fetchComponent: () => import('./child_b/child_b')
       }
     ]
   }

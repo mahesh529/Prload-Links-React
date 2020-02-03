@@ -3,6 +3,15 @@ import { Link } from 'react-router-dom';
 
 const Menu = () => (
   <div>
+       <Link className="link" to="/home">
+       Home 
+    </Link>
+    <Link className="link" to="/a">
+     ParentA
+    </Link>
+    <Link className="link" to="/b">
+      ParentB
+    </Link>
        <Link className="link" to="/home/a">
       Child Home A
     </Link>
