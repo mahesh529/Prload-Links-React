@@ -1,5 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
+
+import Link from "../link/link";
+
 
 const Menu = () => (
   <div>
